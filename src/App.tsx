@@ -5,6 +5,8 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Todos from './pages/Todos'
 import TodoDetails from './pages/TodoDetails'
+import Testing from './pages/Testing'
+import LastEample from './pages/LastEample'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/todos" element={<Todos />} />
           <Route path="/todos/:id" element={<TodoDetails />} />
+          <Route path="/testing" element={<Testing />} />
+          <Route path="/last-example" element={<LastEample />} />
         </Routes>
       </main>
     </div>

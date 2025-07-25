@@ -1,11 +1,5 @@
-import { Link } from 'react-router-dom'
-import type { Todo } from '../types/todo'
-
-const todos: Todo[] = [
-  { id: 1, text: 'Learn React Router', completed: true },
-  { id: 2, text: 'Build a todo app', completed: false },
-  { id: 3, text: 'Deploy to production', completed: false },
-]
+import { Link } from 'react-router-dom';
+import todos from '../data/todos';
 
 export default function Todos() {
   return (
@@ -20,5 +14,5 @@ export default function Todos() {
         ))}
       </ul>
     </div>
-  )
+  );
 }
