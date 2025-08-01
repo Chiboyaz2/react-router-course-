@@ -8,6 +8,8 @@ const todosData: Todo[] = [
   { id: 100, slug: 'just-to-be-sure', text: 'Just to be sure ', completed: false },
   { id: 500, slug: 'new-id', text: 'New ID ', completed: true },
   { id: 700, slug: 'large-id', text: 'Large Id  ', completed: true },
+  { id: 10, slug: 'new-todo', text: 'A recap of last week class', completed: false },
+
 ];
 
 export default todosData;
